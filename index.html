@@ -10,8 +10,8 @@
       --bg: #ffffff;
       --text: #1a1a1a;
       --muted: #6b7280;
-      --brand: #0ea5e9;
-      --brand-dark: #0284c7;
+      --brand: #f59e0b; /* warm amber */
+      --brand-dark: #d97706; /* deeper amber */
       --surface: #f8fafc;
       --border: #e5e7eb;
       --maxw: 1040px;
@@ -37,7 +37,7 @@
     nav a:hover { background: var(--surface); text-decoration: none; }
 
     /* Hero */
-    .hero { background: linear-gradient(180deg, #e0f2fe 0%, #f8fafc 100%); border-bottom: 1px solid var(--border); }
+    .hero { background: linear-gradient(180deg, #ffedd5 0%, #f8fafc 100%); border-bottom: 1px solid var(--border); }
     .hero-inner { padding: 56px 0; display: grid; gap: 16px; }
     .hero h1 { margin: 0; font-size: 28px; letter-spacing: 0.02em; }
     .hero p { margin: 0; color: var(--muted); max-width: 64ch; }
@@ -56,7 +56,7 @@
     .cards { display: grid; gap: 12px; }
     .card { border: 1px solid var(--border); border-radius: 12px; background: #fff; padding: 16px; }
     .card h3 { margin: 0 0 6px; font-size: 18px; }
-    .badge { display: inline-block; margin-left: 8px; padding: 2px 8px; font-size: 12px; border-radius: 999px; background: #e0f2fe; color: #0369a1; font-weight: 700; }
+    .badge { display: inline-block; margin-left: 8px; padding: 2px 8px; font-size: 12px; border-radius: 999px; background: #ffedd5; color: #9a3412; font-weight: 700; }
     .card ul { margin: 8px 0 0; padding-left: 18px; }
 
     /* Footer */
@@ -109,14 +109,14 @@
           <svg width="100%" viewBox="0 0 400 280" role="img" aria-label="装飾図形">
             <defs>
               <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0%" stop-color="#0ea5e9"/>
-                <stop offset="100%" stop-color="#0284c7"/>
+                <stop offset="0%" stop-color="#f59e0b"/>
+                <stop offset="100%" stop-color="#d97706"/>
               </linearGradient>
             </defs>
             <rect x="20" y="40" width="360" height="200" rx="16" fill="url(#g1)" opacity="0.15"/>
-            <circle cx="110" cy="120" r="36" fill="#0ea5e9" opacity="0.25"/>
-            <circle cx="210" cy="160" r="28" fill="#0284c7" opacity="0.25"/>
-            <circle cx="290" cy="110" r="22" fill="#0ea5e9" opacity="0.25"/>
+            <circle cx="110" cy="120" r="36" fill="#f59e0b" opacity="0.25"/>
+            <circle cx="210" cy="160" r="28" fill="#d97706" opacity="0.25"/>
+            <circle cx="290" cy="110" r="22" fill="#f59e0b" opacity="0.25"/>
           </svg>
         </div>
       </div>
